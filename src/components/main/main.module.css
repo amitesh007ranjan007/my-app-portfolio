@@ -1,0 +1,14 @@
+    .Main, .Block {
+        text-align: center;
+    }
+    
+    @media (max-width: 699px) {
+        .Main {
+        float: right;
+        }
+
+        .Block {
+            display: none;
+        }
+        
+    }

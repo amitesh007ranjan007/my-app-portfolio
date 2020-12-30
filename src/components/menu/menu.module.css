@@ -1,0 +1,13 @@
+.Menu {
+    font-size: xx-large;
+    margin-top: 25px;
+    float:left
+}
+
+@media (min-width: 699px) {
+    .Menu {
+    display: none;
+    }
+    
+}
+  

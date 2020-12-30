@@ -1,0 +1,14 @@
+.Bar {
+    background-color: #f2f3f7;
+    overflow-y: scroll;
+    height: 95%;
+    width: 300px;
+    float: left;
+  }
+
+  @media (max-width: 699px) {
+    .Bar {
+    display: none;
+    }
+    
+}

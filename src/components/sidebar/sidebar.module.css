@@ -1,0 +1,54 @@
+.Bar, .Open {
+    background-color: #f2f3f7;
+    overflow-y: scroll;
+    height: 100%;
+    width: 300px;
+    float: left;
+    transition: all 0.3s ease-out;
+  }
+
+  @media (max-width: 699px) {
+    .Bar {
+    display: none;
+    }
+    
+}
+  
+  .Name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: xx-large;
+    margin-top: 15px 0;
+    text-align: center;
+    
+  }
+  
+  .Center {
+    margin: auto;
+    }
+  
+  .Icon { 
+    margin: 15px 0;
+  }
+  
+  .Td {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  
+  .P {
+    margin: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    text-align: center;
+  }
+  .Picture {
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-height: 10%;
+    border-radius: 50px;
+    margin: 25px 0;
+  }
+  
+  
+  
